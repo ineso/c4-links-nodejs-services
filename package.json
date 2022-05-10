@@ -1,0 +1,43 @@
+{
+  "name": "c4-links-nodejs-services",
+  "version": "1.0.0",
+  "description": "Common NodeJS Library with usefull services ready to use for Carrefour Links projects",
+  "private": true,
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "author": "Carrefour Links",
+  "dependencies": {
+    "@google-cloud/bigquery": "^5.9.0",
+    "@google-cloud/logging": "^9.6.0",
+    "@google-cloud/resource-manager": "^3.0.0",
+    "@google-cloud/secret-manager": "^3.10.1",
+    "@google-cloud/storage": "^5.14.3",
+    "compression": "^1.7.4",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "dotenv-flow": "^3.2.0",
+    "express": "^4.17.1",
+    "express-openid-connect": "^2.5.0",
+    "express-session": "^1.17.2",
+    "fs-extra": "^9.1.0",
+    "googleapis": "^87.0.0",
+    "got": "^11.8.2",
+    "helmet": "^4.6.0",
+    "keyv": "^4.0.3",
+    "knex": "^0.95.15",
+    "lodash": "^4.17.21",
+    "nodemailer": "^6.7.2",
+    "objection": "^3.0.1",
+    "pg": "^8.7.1",
+    "pg-escape": "^0.2.0",
+    "simple-node-logger": "^21.8.12"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "chai-http": "^4.3.0",
+    "jest": "^27.3.1",
+    "eslint": "^8.4.1",
+    "eslint-plugin-import": "^2.25.3"
+  }
+}

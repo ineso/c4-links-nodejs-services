@@ -1,0 +1,121 @@
+{
+  "root": true,
+  "env": {
+    "node": true,
+    "es2017": true,
+    "jest": true
+  },
+  "globals": {
+    "process": true
+  },
+  "parserOptions": {
+    "ecmaVersion": 2018
+  },
+  "extends": [
+    "eslint:recommended",
+    "plugin:import/recommended"
+  ],
+  "rules": {
+    "curly": "warn",
+    "no-alert": "error",
+    "no-await-in-loop": "warn",
+    "no-caller": "error",
+    "no-console": "warn",
+    "no-constructor-return": "error",
+    "no-continue": "error",
+    "no-empty-function": "error",
+    "no-eq-null": "error",
+    "no-eval": "error",
+    "no-implicit-coercion": "error",
+    "no-implicit-globals": "error",
+    "no-invalid-this": "error",
+    "no-iterator": "error",
+    "no-label-var": "error",
+    "no-lone-blocks": "warn",
+    "no-lonely-if": "warn",
+    "no-loop-func": "error",
+    "no-loss-of-precision": "warn",
+    "no-multi-str": "error",
+    "no-negated-condition": "warn",
+    "no-new-func": "error",
+    "no-new-wrappers": "error",
+    "no-octal-escape": "error",
+    "no-promise-executor-return": "error",
+    "no-proto": "error",
+    "no-return-assign": "warn",
+    "no-return-await": "warn",
+    "no-script-url": "error",
+    "no-self-compare": "error",
+    "no-shadow": "error",
+    "no-tabs": "warn",
+    "no-template-curly-in-string": "warn",
+    "no-undefined": "warn",
+    "no-unreachable-loop": "error",
+    "no-unused-expressions": "error",
+    "no-use-before-define": "error",
+    "no-useless-backreference": "error",
+    "no-useless-concat": "error",
+    "no-useless-return": "error",
+    "no-var": "error",
+    "no-void": "error",
+    "radix": "error",
+    "require-atomic-updates": "error",
+    "require-await": "error",
+    "vars-on-top": "warn",
+    "complexity": [
+      "error",
+      18
+    ],
+    "max-len": [
+      "warn",
+      {
+        "code": 100,
+        "comments": 100,
+        "tabWidth": 2
+      }
+    ],
+    "max-lines-per-function": [
+      "error",
+      {
+        "max": 250,
+        "skipBlankLines": true,
+        "skipComments": true
+      }
+    ],
+    "max-params": [
+      "warn",
+      6
+    ],
+    "no-extra-parens": [
+      "warn",
+      "all",
+      {
+        "conditionalAssign": false,
+        "returnAssign": false,
+        "nestedBinaryExpressions": false
+      }
+    ],
+    "no-unused-vars": [
+      "error",
+      {
+        "args": "none"
+      }
+    ],
+    "no-unsafe-optional-chaining": [
+      "error",
+      {
+        "disallowArithmeticOperators": true
+      }
+    ],
+    "no-param-reassign": [
+      "error",
+      {
+        "props": false
+      }
+    ],
+    "semi": [
+      "error",
+      "never"
+    ]
+  }
+}
